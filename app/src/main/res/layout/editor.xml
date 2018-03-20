@@ -1,0 +1,86 @@
+<android.support.design.widget.CoordinatorLayout
+	android:id="@+id/rootLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:fitsSystemWindows="true">
+	<android.support.design.widget.AppBarLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:theme="@style/AppTheme2.AppBarOverlay">
+		<android.support.design.widget.TabLayout
+			android:id="@+id/tabLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</android.support.design.widget.AppBarLayout>
+	<android.support.v4.widget.DrawerLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/drawer_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<android.support.v4.view.ViewPager
+			android:id="@+id/view_pager"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+			<!-- Side navigation drawer UI LEFT -->
+			<ListView
+				android:id="@+id/navListLeft"
+				android:layout_width="350dp"
+				android:layout_height="match_parent"
+				android:layout_gravity="left"
+				android:background="#BEC3C3"/>
+			<!-- Side navigation drawer UI RIGHT -->
+			<ListView
+				android:id="@+id/navListRight"
+				android:layout_width="350dp"
+				android:layout_height="match_parent"
+				android:layout_gravity="right"
+				android:background="#BEC3C3"/>
+	</android.support.v4.widget.DrawerLayout>
+	<android.support.design.widget.FloatingActionButton 
+		android:id="@+id/shortCode1"
+        android:layout_width="60dip" 
+		android:layout_height="60dip"
+        android:layout_gravity="bottom|end"
+		android:layout_marginBottom="358dp"
+		android:layout_marginRight="16dp"
+		android:src="@drawable/short_code4"
+		android:visibility="gone"/>
+	<android.support.design.widget.FloatingActionButton 
+		android:id="@+id/shortCode2"
+        android:layout_width="60dip" 
+		android:layout_height="60dip"
+        android:layout_gravity="bottom|end"
+		android:layout_marginBottom="272dp"
+		android:layout_marginRight="16dp"
+		android:src="@drawable/short_code3"
+		android:visibility="gone" />
+	<android.support.design.widget.FloatingActionButton 
+		android:id="@+id/shortCode3"
+        android:layout_width="60dip" 
+		android:layout_height="60dip"
+        android:layout_gravity="bottom|end"
+		android:layout_marginBottom="186dp"
+		android:layout_marginRight="16dp"
+		android:src="@drawable/short_code2"
+		android:visibility="gone" />
+	<android.support.design.widget.FloatingActionButton 
+		android:id="@+id/shortCode4"
+        android:layout_width="60dip" 
+		android:layout_height="60dip"
+        android:layout_gravity="bottom|end"
+		android:layout_marginBottom="100dp"
+		android:layout_marginRight="16dp"
+		android:src="@drawable/short_code1"
+		android:visibility="gone" />
+	
+	<android.support.design.widget.FloatingActionButton 
+		android:id="@+id/codeShortcut"
+        android:layout_width="60dip" 
+		android:layout_height="60dip"
+        android:layout_gravity="bottom|end"
+		android:layout_margin="16dp"
+		android:src="@android:drawable/ic_menu_edit" />
+</android.support.design.widget.CoordinatorLayout>

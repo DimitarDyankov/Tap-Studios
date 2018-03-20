@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:gravity="center">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="32sp"
+		android:text="Floating Action Button Settings" />
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:stretchColumns="*">
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Action Button 1" />
+			<EditText
+				android:id="@+id/ShortCodeEditText1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Display Code" />
+		</TableRow>
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Action Button 2" />
+			<EditText
+				android:id="@+id/ShortCodeEditText2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Display Code" />
+		</TableRow>
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Action Button 3" />
+			<EditText
+				android:id="@+id/ShortCodeEditText3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Display Code" />
+		</TableRow>
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Action Button 4" />
+			<EditText
+				android:id="@+id/ShortCodeEditText4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="Display Code" />
+		</TableRow>
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<Button 
+				android:id="@+id/ShortCodeButton"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Update" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

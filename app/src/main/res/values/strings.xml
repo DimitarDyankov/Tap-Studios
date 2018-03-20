@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tap Studios</string>
+	
+	<string-array name="language_array">
+		<item>Please select language to work with ...</item>
+        <item>HTML/CSS/JavaScript</item>
+        <item>Java</item>
+        <item>PHP</item>
+    </string-array>
+	<string-array name="webProject_array">
+		<item>Please select a project type ...</item>
+        <item>Blank</item>
+        <item>Bootstraps</item>
+        <item>Foundation</item>
+    </string-array>
+	<string-array name="javaProject_array">
+		<item>Please select a project type ...</item>
+        <item>Android</item>
+    </string-array>
+	<string-array name="phpProject_array">
+		<item>Please select a project type ...</item>
+        <item>Blank</item>
+        <item>Wordpress</item>
+        <item>Code Igniter</item>
+    </string-array>
+	
+	<string name="about_developer">Tap Studios has been developed by Dimitar Dyankov. I hope you enjoy the new IDE for Android and it allows you to learn and create software on the move. The aim of the application is to allow user to create code on the go and continue it on a different device at a different time. \n Happy Coding !!!!</string>
+	<string name="acknowledgement">For this application to work several key components were needed: \n WordPress installation files taken directly from https://wordpress.com \n CodeIgniter installation taken directly from https://www.codeigniter.com \n Bootstraps installation taken directly from http://getbootstrap.com \n Foundation installation taken directly from http://foundation.zurb.com \n Android source project files taken from the android open source project</string>
+	<string name="Instructions1">Welcome to Tap Studios, this app is intended to provide a development environment for everyone, whatever their level of experience! A few things to note before you can begin coding:</string>
+	<string name="Instructions2">On the bottom right of the screen you can see a plus sign in a floating action button, by pressing this you will be able to begin creating a project.</string>
+	<string name="Instructions3">The big green plus in the grid view, allows you to create tutorial cards. Tutorial cards find online tutorials that you can learn from, for example if you create a tutorial card called \'java\', clicking it will open java tutorials.</string>
+	<string name="Instructions4">The big pink heart next to the green plus in the grid layout is for your favorited tutorials. To favourite a tutorial all you need to do is long press (Pressing and holding) a tutorial.</string>
+</resources>

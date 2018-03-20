@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling" 
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	tools:context=".ScrollingActivity">    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Project Creation"
+			android:textSize="36sp"/>
+		<EditText
+			android:id="@+id/projectName_etext"
+			android:layout_width="400dp"
+			android:layout_height="wrap_content"
+			android:hint="Project Name"
+			android:layout_marginTop="40dp"/>
+		<TableLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginTop="20dp"
+			android:stretchColumns="*">
+			<TableRow>
+				<TextView
+					android:id="@+id/projectPath_text"
+					android:layout_width="350dp"
+					android:layout_height="wrap_content"
+					android:hint="Project Path"/>
+				<Button
+					android:id="@+id/browseFiles_btn" 
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Browse"/>
+			</TableRow>
+		</TableLayout>
+		<Spinner
+			android:id="@+id/language_spinner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40dp"/>
+		<Spinner
+			android:id="@+id/projectType_spinner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40dp"/>
+		
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

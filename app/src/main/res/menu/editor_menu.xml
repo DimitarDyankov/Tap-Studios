@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools" >
+	<item
+		android:id="@+id/action_save"
+        android:title="Save File"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_search"
+        android:title="Search"
+		android:showAsAction="always" />
+	<item
+		android:id="@+id/action_syncronise"
+        android:title="Syncronise Project"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_about"
+        android:title="About"
+		app:showAsAction="never" />
+</menu>

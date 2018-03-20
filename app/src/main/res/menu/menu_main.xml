@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools" >
+	<item
+		android:id="@+id/action_open"
+		android:orderInCategory="97"
+        android:title="Open Project"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_create"
+		android:orderInCategory="98"
+        android:title="Create Project"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_settings"
+		android:orderInCategory="99"
+        android:title="Settings"
+		app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+		android:orderInCategory="100"
+        android:title="About"
+		app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_instruction"
+		android:orderInCategory="101"
+        android:title="Instructions"
+		app:showAsAction="never"/>
+</menu>

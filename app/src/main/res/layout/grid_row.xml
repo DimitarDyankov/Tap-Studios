@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+	android:id="@+id/gridRow">
+	<ImageView 
+		android:id="@+id/addTutorialView_gridRow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+		android:background="@drawable/bg_card" />
+	<ImageView 
+		android:id="@+id/favouriteView_gridRow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+		android:background="@drawable/bg_card" />
+    <TextView
+        android:id="@+id/textView_gridRow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+		android:background="@drawable/bg_card">
+    </TextView>
+</LinearLayout>
